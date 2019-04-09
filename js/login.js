@@ -3,12 +3,12 @@ var attempt = 3; // Variable to count number of attempts.
 function validate() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
+    
     if ( username == "Henrik Grove" && password == "hoc") {
         alert ("Godkendt!");
         window.location = "success.html"; // Redirecting to other page.
         return false;
     }
-
     else {
         attempt --;// Decrementing by one.
         alert("Forkert kodeord. Du har "+attempt+" forsøg tilbage.");

@@ -1,0 +1,153 @@
+* {margin:0;padding:0;}
+.clear {clear:both;}
+
+.cont {
+    max-width:1250px;
+    margin: 20px auto;
+}
+
+header {
+    background-color:#515f6d;
+    color:#fff;
+}
+
+img {
+    padding:0 15px;
+    vertical-align: middle;
+}
+
+
+/* Navigation */
+
+nav {
+    float:left;
+    width:20%;
+    margin-right:10%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    color:#515f6d;
+    display:block;
+    padding:15px 30px;
+    text-decoration: none;
+}
+
+nav a:hover, nav a:active, a.currentpage {
+    color:#6696ac;
+    background-color:#f4f3f3;
+}
+
+/* Section */
+
+section {
+    display:block;
+    float:left;
+    width:70%;
+}
+
+section .item {
+    padding:0 0 40px;
+}
+
+section h1 {
+    display:block;
+    font-size:26px;
+    font-weight:normal;
+    color:#515f6d;
+}
+
+section h2 {
+    padding:0 0 10px;
+    font-weight: normal;
+    color:#515f6d;
+    font-size:20px;
+}
+
+hr {
+    margin: 15px 0 20px;
+    border:none;
+    height:5px;
+    color:#515f6d; /* old IE */
+    background-color:#515f6d; /* Modern Browsers */
+}
+
+/* HEX COLOR PALETTE*/
+
+.hex {
+    margin-right:19.4px;
+    margin-bottom:19.4px;
+    padding:35px 45px;
+    display:block;
+    float:left;
+    text-align: center;
+    border:1px solid rgba(0,0,0,0.2);
+}
+
+.hex484848 {
+    background-color:#484848;
+    color:white;
+}
+
+.hex515f6d {
+    background-color:#515f6d;
+    color:white;       
+}
+
+.hex6696ac {
+    background-color:#6696ac;
+    color:white;
+}
+
+.hexc0bcbb {
+    background-color:#c0bcbb;
+    color:black;
+}
+
+.hexf4f3f3 {
+    background-color:#f4f3f3;
+    color:black;
+    margin-right: 0;
+}
+
+.hexa6bb75 {
+    background-color:#a6bb75;
+    color:white;
+}
+
+.hexd8a55a {
+    background-color:#d8a55a;
+    color:white;
+    
+}
+
+.hexd7734a {
+    background-color:#d7734a;
+    color:white;
+}
+
+.hexd26d75 {
+    background-color:#d26d75;
+    color:white;
+}
+
+.hexaa81ac {
+    background-color:#aa81ac;
+    color:white;
+    margin-right:0;
+}
+
+
+xmp {
+    margin: 10px 0 ;
+    border-left:5px solid #ffdf80;
+    background-color:#FFF5DA;
+}
+
+
+
+
+
