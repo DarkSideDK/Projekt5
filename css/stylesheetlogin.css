@@ -2,7 +2,6 @@
     padding:0;
     margin:0;
     font-family: 'Roboto Mono', monospace;
-    font-size:14px;
 }
 
 body, html {
@@ -22,7 +21,7 @@ body, html {
     float:left;
 }
 
-.main {
+.loginbox {
     float:left;
     padding:0 50px;
     width: 310px;
@@ -64,4 +63,94 @@ button {
 
 button:hover {
     text-decoration: underline;
+}
+
+/* Når man er logget ind kommer man ind på leder.html, herunder er kode for dokument */
+
+.mainbox {
+    margin: 6% auto 0;
+    max-width: 1100px;
+    /* background-color: aqua;*/
+}
+
+.leftbox {
+    width: 49.5%;
+    float: left;
+}
+
+.profileheader {
+    background-color: #515f6d;
+    padding: 15px 35px;
+    margin-bottom: 4px;
+    
+}
+
+.profileheader .box1 {
+    float: left;
+    background-color: cornflowerblue;
+    width:80%;
+}
+
+.profileheader .box2 {
+    float: left;
+    background-color: fuchsia;
+    width: 20%;
+}
+
+h1 {
+    color: white;
+    font-size: 24px;
+    
+}
+
+.logaf {
+    color: white;
+    
+}
+
+.mailbox {
+    background-color: white;
+    
+}
+
+.pilknap {
+    margin-bottom: -4px;
+    border: 4px solid #c0bcbb;
+    padding: 15px 10px;
+}
+
+.pilknap .box0 {
+    float: left;
+    color: #6696ac;
+    width: 60%;
+}
+
+.pilknap .box1, .pilknap .box2 {
+    font-size: 10px;
+    float: left;
+    width: 17%;
+    text-align: center;
+    color: #c0bcbb;
+}
+
+.boxpil {
+    float: right;
+    font-size: 20px;
+    color: #6696ac;
+    width: 5%;
+    text-align: right;
+}
+
+.goals {
+    border: 4px solid #c0bcbb;
+    margin: 8px 0 4px;
+    padding: 15px 10px;
+    color: #6696ac;
+    height: 150px;
+}
+
+.rightbox {
+    width: 49.5%;
+    background-color: brown;
+    float: right;
 }
