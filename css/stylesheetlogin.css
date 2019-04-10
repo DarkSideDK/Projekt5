@@ -87,13 +87,11 @@ button:hover {
 
 .profileheader .box1 {
     float: left;
-    background-color: cornflowerblue;
     width:80%;
 }
 
 .profileheader .box2 {
     float: left;
-    background-color: fuchsia;
     width: 20%;
 }
 
@@ -151,6 +149,12 @@ h1 {
 
 .rightbox {
     width: 49.5%;
-    background-color: brown;
     float: right;
+    border: 4px solid #c0bcbb;
+}
+
+.bobble {
+    width: 50%;
+    height: 250px;
+    margin: 25% 25%;
 }
