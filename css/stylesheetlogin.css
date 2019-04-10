@@ -173,3 +173,23 @@ h1 {
     height: 250px;
     margin: 25% 25%;
 }
+
+object {
+    width: 100%;
+    height: 580px;
+    color: white;
+    font-size: 24px;
+}
+
+/* udviklingssamtale specifikke class slash id herunder */
+
+object .musheader {
+    background-color: #515f6d;
+    padding: 15px 35px;
+    margin-bottom: 4px;
+}
+
+object .musheader .box1 {
+    float: left;
+    width:80%;
+}
