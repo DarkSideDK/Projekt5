@@ -67,10 +67,11 @@ button:hover {
 
 /* Når man er logget ind kommer man ind på leder.html, herunder er kode for dokument */
 
+
+/* --------- Main boxes --------- */
 .mainbox {
     margin: 6% auto 0;
     max-width: 1100px;
-    /* background-color: aqua;*/
 }
 
 .leftbox {
@@ -78,38 +79,73 @@ button:hover {
     float: left;
 }
 
+.rightbox {
+    width: 49.5%;
+    float:right;
+}
+
+object {
+    width:100%;
+}
+
+/* --------- Box headers --------- */
+
 .profileheader {
     background-color: #515f6d;
-    padding: 15px 35px;
-    margin-bottom: 4px;
-    
+    margin-bottom:4px;
+    padding:25px 30px;
 }
 
-.profileheader .box1 {
-    float: left;
-    width:80%;
+.profileheader img {
+    height:50px;
+    vertical-align: middle;
 }
 
-.profileheader .box2 {
-    float: left;
-    width: 20%;
-}
-
-h1 {
+.profileheader h1 {
     color: white;
     font-size: 24px;
-    
 }
 
-.logaf {
-    color: white;
-    
+span {
+    color: white; 
 }
 
-.mailbox {
+.profileheader .left {
+    float: left;
+    width: 65%;
+}
+
+.profileheader .right {
+    float: right;
+    width: 35%;
+}
+
+img.mailbox {
+    float:right;
     background-color: white;
-    
 }
+
+.mailalert {
+    background-color:#d26d75;
+    box-sizing: border-box;
+    float:right;
+    margin:32px -70px -100px;
+    border-radius: 200px;
+    height:25px;
+    width:25px;
+    line-height: 25px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+
+/* ------ Different headers*/
+
+#musheader {
+    background-color: #a6bb75;
+}
+
+/* --------- Styling af knap --------- */
 
 .pilknap {
     text-align: left;
@@ -154,42 +190,34 @@ h1 {
     text-align: right;
 }
 
+/* --------- BOX CONTENT  --------- */
+
 .goals {
     border: 4px solid #c0bcbb;
     margin: 8px 0 4px;
-    padding: 15px 10px;
+    padding: 10px 10px;
     color: #6696ac;
     height: 150px;
 }
 
-.rightbox {
-    width: 49.5%;
-    float: right;
-    border: 4px solid #c0bcbb;
-}
-
 .bobble {
-    width: 50%;
-    height: 250px;
-    margin: 25% 25%;
+    width:50%;
+    margin: 25%;
 }
 
-object {
-    width: 100%;
-    height: 580px;
-    color: white;
-    font-size: 24px;
+#contentbox { 
+    border: 4px solid black;
+    height:100%;
 }
 
-/* udviklingssamtale specifikke class slash id herunder */
+/* MOBILE OR SMALLER SCREENS */
 
-object .musheader {
-    background-color: #515f6d;
-    padding: 15px 35px;
-    margin-bottom: 4px;
-}
-
-object .musheader .box1 {
-    float: left;
-    width:80%;
+@media only screen and (max-width: 900px) {
+    .mainbox {
+        margin:0;
+    }
+    .leftbox, .rightbox {
+        width:99%;
+        margin:0.5% 0.5%;
+    }
 }

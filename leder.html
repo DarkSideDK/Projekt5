@@ -14,48 +14,51 @@
 <body>
   <div class="mainbox">
       <div class="leftbox" id="leftbox">
-          <div class="profileheader">
-             <div class="box1">
+          <div class="profileheader" id="header">
+             <div class="left">
                  <h1>Henrik Grove</h1>
-                 <span class="logaf">Log af</span>
+                 <span>Log af</span>
              </div>
-             <div class="box2">
-                 <div class="mailbox">1</div>
+             <div class="right">
+                 <img class="mailbox" src="images/mail.png">
+                 <div class="mailalert">2</div>
              </div> 
              <div class="clear"></div>
           </div>
-          <button class="pilknap"  onclick="load()">
-              <div class="box0">Udfyld din udviklingssamtale</div>
-              <div class="box1">Udfyldt<br>0/7</div>
-              <div class="box2">Frist<br>27. Juni 2019</div>
-              <div class="boxpil">&gt;</div>
-              <div class="clear"></div>
-          </button>
-          <button class="pilknap">
-              <div class="box0">Hjælp en kollega</div>
-              <div class="box1">Hjulpet<br>0/2</div>
-              <div class="box2">Frist<br>27. Juni 2019</div>
-              <div class="boxpil">&gt;</div>
-              <div class="clear"></div>
-          </button>
-          <button class="pilknap">
-              <div class="box0">Oversigt over medarbejdere</div>
-              <div class="boxpil">&gt;</div>
-              <div class="clear"></div>
-          </button>
-          <button class="pilknap">
-              <div class="box0">Opret one2one samtale</div>
-              <div class="boxpil">&gt;</div>
-              <div class="clear"></div>
-          </button>
-          <div class="goals">
-              <div class="box0">Dine mål:</div>
+          <div id="calcHeight">
+              <button class="pilknap" onclick="loadUdviklingssamtale()">
+                  <div class="box0">Udfyld din udviklingssamtale</div>
+                  <div class="box1">Udfyldt<br>0/7</div>
+                  <div class="box2">Frist<br>27. Juni 2019</div>
+                  <div class="boxpil">&gt;</div>
+                  <div class="clear"></div>
+              </button>
+              <button class="pilknap">
+                  <div class="box0">Hjælp en kollega</div>
+                  <div class="box1">Hjulpet<br>0/2</div>
+                  <div class="box2">Frist<br>27. Juni 2019</div>
+                  <div class="boxpil">&gt;</div>
+                  <div class="clear"></div>
+              </button>
+              <button class="pilknap">
+                  <div class="box0">Oversigt over medarbejdere</div>
+                  <div class="boxpil">&gt;</div>
+                  <div class="clear"></div>
+              </button>
+              <button class="pilknap">
+                  <div class="box0">Opret one2one samtale</div>
+                  <div class="boxpil">&gt;</div>
+                  <div class="clear"></div>
+              </button>
+              <div class="goals">
+                  <div class="box0">Dine mål:</div>
+              </div>
+              <button class="pilknap">
+                  <div class="box0">Din historik</div>
+                  <div class="boxpil">&gt;</div>
+                  <div class="clear"></div>
+              </button>
           </div>
-          <button class="pilknap">
-              <div class="box0">Din historik</div>
-              <div class="boxpil">&gt;</div>
-              <div class="clear"></div>
-          </button>
       </div>
       <div class="rightbox" id="rightbox">
           <img class="bobble" src="images/talebobble.svg" alt="talebobbel"/>
