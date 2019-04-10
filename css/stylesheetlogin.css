@@ -10,6 +10,21 @@ body, html {
 
 .clear {clear:both;}
 
+.language {
+    color:#515f6d;
+    float:right;
+    margin-bottom: 1%;
+}
+
+.language a {
+    color:#515f6d;
+    text-decoration: none;
+}
+
+.language a:hover {
+    text-decoration: underline;
+}
+
 .container{
     height:100%;
     max-width: 750px;
@@ -70,7 +85,7 @@ button:hover {
 
 /* --------- Main boxes --------- */
 .mainbox {
-    margin: 6% auto 0;
+    margin: 5% auto 0;
     max-width: 1100px;
 }
 
@@ -88,12 +103,14 @@ object {
     width:100%;
 }
 
+
 /* --------- Box headers --------- */
 
 .profileheader {
     background-color: #515f6d;
     margin-bottom:4px;
     padding:25px 30px;
+    height:52px;
 }
 
 .profileheader img {
@@ -206,8 +223,33 @@ img.mailbox {
 }
 
 #contentbox { 
-    border: 4px solid black;
-    height:100%;
+    border: 4px solid #c0bcbb;
+    padding:10px;
+    height: 466px;
+}
+
+.yellowbox {
+    border: 4px solid #d8a55a;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+
+label {
+    border:1px solid red;
+    float:left;
+}
+
+.question h2 {
+    font-size:16px;
+    font-weight: normal;
+}
+
+
+p.example {
+    color:#c0bcbb;
+    font-size:12px;
+    font-style: italic;
 }
 
 /* MOBILE OR SMALLER SCREENS */
