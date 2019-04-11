@@ -5,12 +5,17 @@ function validate() {
     var password = document.getElementById("password").value;
     
     if ( username == "Henrik Grove" && password == "hoc") {
-        alert ("Godkendt!");
-        window.location = "success.html"; // Redirecting to other page.
+        alert ("Godkendt! Velkommen "+username+".");
+        window.location = "leder.html"; // Redirecting to "HR" page.
+        return false;
+    }
+	if ( username == "Kenneth Kordreng" && password == "login") {
+        alert ("Godkendt! Velkommen "+username+".");
+        window.location = "bruger.html"; // Redirecting to "User" page.
         return false;
     }
     else {
-        attempt --;// Decrementing by one.
+        attempt --;
         alert("Forkert kodeord. Du har "+attempt+" forsøg tilbage.");
         // Disabling fields after 3 attempts.
         if ( attempt == 0) {
