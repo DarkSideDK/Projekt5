@@ -85,7 +85,7 @@ button:hover {
 
 /* --------- Main boxes --------- */
 .mainbox {
-    margin: 5% auto 0;
+    margin: 4% auto 0;
     max-width: 1100px;
 }
 
@@ -214,7 +214,7 @@ img.mailbox {
     margin: 8px 0 4px;
     padding: 10px 10px;
     color: #6696ac;
-    height: 150px;
+    height: 200px;
 }
 
 .bobble {
@@ -225,68 +225,72 @@ img.mailbox {
 #contentbox { 
     border: 4px solid #c0bcbb;
     padding:10px;
-    height: 466px;
+    height: 516px;
 }
 
 .yellowbox {
 	font-size: 10px;
-	text-align: center;
     border: 4px solid #d8a55a;
     padding:10px;
-    margin-bottom:20px;
+    margin-bottom:10px;
 }
 
 .checkbox {
-	position: relative;
-	float: left;
-	top: 15px;
-	margin-right: 30px;
-	margin-left: 15px;
+    display:block;
+    float:left;
+    margin:3px 0;
+}
+
+.question {
+    color:#484848;
+    padding: 5px 0 8px;
+}
+
+.question label {
+    float:left;
+    display:block;
+    margin:0 10px;
 }
 
 .question h2 {
-	font-size: 10px;
+    display:inline-block;
+	font-size: 12px;
     font-weight: normal;
+    max-width:450px;
 }
 
-.writeex {
-	font-size: 10px;
+.writeex { /* Write example */
+	font-size: 11px;
+    padding:3px;
 	width: 50%;
-	margin-left: 55px;
+    border:1px solid #c0bcbb;
 }
 	
-p.example {
-	margin-left: 55px;
-	margin-bottom: 5px;
-	margin-top: 5px;
+p.example { 
+	margin: 5px 0;
     color:#c0bcbb;
-    font-size:8px;
+    font-size:9px;
     font-style: italic;
 }
 
-.pages {
+.pages { /* Box that contains page numbers */
 	position: relative;
 	float: left;
 	left: 35%;
+    font-size: 12px;
+    text-align: center;
 }
 
-small {
-	font-size: 10px
+.pages a { /* Link to next site*/
+    display:inline-block;
+    padding:8px;
+    color:#484848;
+    text-decoration: none;
+    font-size:13px;
 }
 
-.arrow {
-	font-size: 12px;
-	display: inline;
-	margin-top: 0px;
-	margin-left: 10px;
-	margin-right: 10px;
-	width: 15px;
-	height: auto;
-}
-
-#arrowleft {
-	-webkit-transform: scaleX(-1);
-	transform: scaleX(-1);
+.pages a:hover {
+    font-weight: bold;
 }
 
 /* MOBILE OR SMALLER SCREENS */
