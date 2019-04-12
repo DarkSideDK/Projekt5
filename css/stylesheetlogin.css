@@ -5,7 +5,7 @@
 }
 
 body, html {
-    min-height: 100%;
+    max-height: 100%;
 }
 
 .clear {clear:both;}
@@ -243,9 +243,14 @@ img.mailbox {
 }
 
 #contentbox { 
+    position:absolute;
+    bottom:0;
+    top:106px;
+    left:0;
+    right:0;
     border: 4px solid #c0bcbb;
     padding:10px;
-    height: 516px;
+    overflow-y: scroll;
 }
 
 .yellowbox {
@@ -282,7 +287,7 @@ img.mailbox {
 .writeex { /* Write example */
 	font-size: 11px;
     padding:3px;
-	width: 50%;
+	width: 300px;
     border:1px solid #c0bcbb;
 }
 	
@@ -291,13 +296,14 @@ p.example {
     color:#c0bcbb;
     font-size:9px;
     font-style: italic;
+    max-width:450px;
 }
 
 .pages { /* Box that contains page numbers */
-	position: relative;
-	float: left;
-	top: 0%;
-	left: 35%;
+	position: fixed;
+    bottom:4px;
+    right:4px;
+    left:4px;
     font-size: 12px;
     text-align: center;
 }
