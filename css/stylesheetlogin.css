@@ -158,8 +158,28 @@ img.mailbox {
 
 /* ------ Different headers*/
 
+/* MUS - Page 1 */
+
 #musheader {
     background-color: #a6bb75;
+}
+
+/* MUS - Page 2 */
+
+#musheaderp2 {
+    background-color: #aa81ac;
+}
+
+/* MUS - Page 3 */
+
+#musheaderp3 {
+    background-color: #d36d75;
+}
+
+/* MUS - Page 4 */
+
+#musheaderp4 {
+    background-color: #6696ac;
 }
 
 /* --------- Styling af knap --------- */
@@ -276,6 +296,7 @@ p.example {
 .pages { /* Box that contains page numbers */
 	position: relative;
 	float: left;
+	top: 0%;
 	left: 35%;
     font-size: 12px;
     text-align: center;
