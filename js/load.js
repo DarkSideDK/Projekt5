@@ -4,6 +4,7 @@ var content;
 function makeGray() {
     var udvknap = document.getElementById("udvknap");
     var kollegaknap = document.getElementById("kollegaknap");
+    var opretknap = document.getElementById("opretknap");
     
     udvknap.style.backgroundColor = "white";
     udvknap.style.border = "4px solid #c0bcbb";
@@ -13,6 +14,10 @@ function makeGray() {
     kollegaknap.style.border = "4px solid #c0bcbb";
     kollegaknap.style.position = "relative";
     kollegaknap.style.zIndex = "0";
+    opretknap.style.backgroundColor = "white";
+    opretknap.style.border = "4px solid #c0bcbb";
+    opretknap.style.position = "relative";
+    opretknap.style.zIndex = "0";
     
 }
 
@@ -44,4 +49,15 @@ function loadKollega() {
     kollegaknap.style.position = "relative";
     kollegaknap.style.zIndex = "1";
     
+}
+
+function loadOpretSam() {
+    document.getElementById("rightbox").innerHTML = '<object type="text/html" id="window" data="#"></object>';
+    
+    makeGray();
+    var opretknap = document.getElementById("opretknap");
+    opretknap.style.backgroundColor = "rgba(166,187,117,0.1)";
+    opretknap.style.border = "4px solid rgba(166,187,117,1)";
+    opretknap.style.position = "relative";
+    opretknap.style.zIndex = "1";
 }
