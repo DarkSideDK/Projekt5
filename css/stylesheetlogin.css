@@ -106,8 +106,11 @@ object {
 
 /* --------- Box headers --------- */
 
-.profileheader {
+#header {
     background-color: #515f6d;
+}
+
+.profileheader {
     margin-bottom:4px;
     padding:25px 30px;
     height:52px;
