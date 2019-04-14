@@ -234,6 +234,17 @@ img.mailbox {
     text-align: right;
 }
 
+.pilknap input[type=text] {
+    float: left;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;
+    border-bottom-color: #6696ac;
+    border-bottom-width: 1px;
+    font-style: italic;
+    
+}
+
 /* --------- BOX CONTENT  --------- */
 
 .goals {
