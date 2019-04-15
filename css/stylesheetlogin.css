@@ -103,15 +103,10 @@ object {
     width:100%;
 }
 
-
 /* --------- Box headers --------- */
 
 #header {
     background-color: #515f6d;
-}
-
-#headercolor2 {
-    background-color: #6696ac;
 }
 
 .profileheader {
@@ -164,6 +159,19 @@ img.mailbox {
 }
 
 /* ------ Different headers*/
+
+.tilbageknap {
+    color: white;
+    text-decoration: none;
+}
+
+.tilbageknap:hover {
+    text-decoration: underline;
+}
+
+#headercolor2 {
+    background-color: #6696ac;
+}
 
 /* MUS - Page 1 */
 
