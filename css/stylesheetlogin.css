@@ -250,7 +250,6 @@ img.mailbox {
     border-bottom-color: #6696ac;
     border-bottom-width: 1px;
     font-style: italic;
-    
 }
 
 /* --------- BOX CONTENT  --------- */
@@ -348,8 +347,7 @@ p.example {
 
 .pilknap #medarbejderlisten {
     list-style-type: none;
-    width: 544px;
-    margin: 4px 0;
+    margin: -15px 0 0 0;
 }
 
 #medarbejderlisten li a {
