@@ -40,7 +40,10 @@ function loadUdviklingssamtale() {
 }
 
 function loadKollega() {
-    document.getElementById("rightbox").innerHTML = '<object type="text/html" id="window" data="#"></obejct>';
+    document.getElementById("rightbox").innerHTML = '<object type="text/html" id="window" data="kollega.html"></obejct>';
+	
+	height = document.getElementById('leftbox').scrollHeight;
+    document.getElementById('window').style.height = height + "px";
     
     makeGray();
     var kollegaknap = document.getElementById("kollegaknap");
