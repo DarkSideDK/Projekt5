@@ -346,16 +346,25 @@ p.example {
     font-weight: bold;
 }
 
-#medarbejderlisten {
+.pilknap #medarbejderlisten {
     list-style-type: none;
+    width: 544px;
+    margin: 4px 0;
 }
 
 #medarbejderlisten li a {
     text-decoration: none;
     color: #484848;
     box-sizing: border-box;
-    padding: 0;
-    border: 4px solid #ddd;
+    text-align: left;
+    border: 4px solid #c0bcbb;
+    padding: 15px 10px;
+    width: 544px;
+    background-color:white;
+    font-size:16px;
+    float: left;
+    margin-left: -13px;
+    margin-top: -4px;
 }
 
 /* MOBILE OR SMALLER SCREENS */
