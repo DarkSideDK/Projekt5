@@ -309,13 +309,14 @@ img.mailbox {
     max-width:450px;
 }
 
-.writeex { /* Write example */
+.writeex { /* Write example in MUS */
 	font-size: 11px;
     padding:3px;
 	width: 300px;
     border:1px solid #c0bcbb;
 }
-	
+
+
 p.example { 
 	margin: 5px 0;
     color:#c0bcbb;
@@ -333,6 +334,14 @@ p.example {
     text-align: center;
 }
 
+.pageskollega { /* Box that contains page numbers */
+	bottom:4px;
+    right:4px;
+    left:4px;
+    font-size: 12px;
+    text-align: center;
+}
+
 .pages a { /* Link to next site*/
     display:inline-block;
     padding:8px;
@@ -343,6 +352,16 @@ p.example {
 
 .pages a:hover {
     font-weight: bold;
+}
+
+/* Radio (Enig/Uenig) */
+
+.eniguenig {
+	position: relative;
+	left: 13px;
+	padding: 5px;
+	margin: 5px;
+	font-size: 12px;
 }
 
 .pilknap #medarbejderlisten {
