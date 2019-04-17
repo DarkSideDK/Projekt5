@@ -373,7 +373,6 @@ p.example {
 }
 
 .pages { /* Box that contains page numbers */
-	position: fixed;
     bottom:4px;
     right:4px;
     left:4px;
@@ -404,14 +403,11 @@ p.example {
     color: #484848;
     box-sizing: border-box;
     text-align: left;
-    border: 4px solid #c0bcbb;
-    padding: 15px 10px;
     width: 105%;
     background-color:white;
     font-size:16px;
     float: left;
     margin-left: -13px;
-    margin-top: -4px;
 }
 
 /* MOBILE OR SMALLER SCREENS */
