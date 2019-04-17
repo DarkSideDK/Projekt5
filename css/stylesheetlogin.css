@@ -276,7 +276,7 @@ img.mailbox {
     color: #c0bcbb;
 }
 
-.pilknap2 .box2 {
+.pilknap .box4 {
     font-size: 10px;
     float: left;
     width: 17%;
@@ -284,7 +284,7 @@ img.mailbox {
     color: #d36d75;
 }
 
-.pilknap2 .box3 {
+.pilknap .box3 {
     font-size: 10px;
     float: left;
     width: 17%;
@@ -414,8 +414,6 @@ p.example {
 
 .pilknap2 #medarbejderlisten {
     list-style-type: none;
-    margin: -15px 0 0 0;
-    background-color: white;
 }
 
 #medarbejderlisten li a {
@@ -423,14 +421,11 @@ p.example {
     color: #484848;
     box-sizing: border-box;
     text-align: left;
-    border: 4px solid #c0bcbb;
-    padding: 15px 10px;
     width: 105%;
     background-color:white;
     font-size:16px;
     float: left;
     margin-left: -13px;
-    margin-top: -4px;
 }
 
 /* MOBILE OR SMALLER SCREENS */
