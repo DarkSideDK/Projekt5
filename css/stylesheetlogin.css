@@ -242,7 +242,7 @@ img.mailbox {
     text-align: right;
 }
 
-.pilknap input[type=text] {
+.pilknap2 input[type=text] {
     float: left;
     border-left: hidden;
     border-right: hidden;
@@ -250,6 +250,54 @@ img.mailbox {
     border-bottom-color: #6696ac;
     border-bottom-width: 1px;
     font-style: italic;
+    background-color: #f6f6f6;
+}
+
+.pilknap2 {
+    text-align: left;
+    margin-bottom: -4px;
+    border: 4px solid #c0bcbb;
+    padding: 15px 10px;
+    width:100%;
+    background-color:#f6f6f6;
+    font-size:16px;
+}
+
+.pilknap2 .box0 {
+    float: left;
+    width: 60%;
+}
+
+.pilknap2 .box1 {
+    font-size: 10px;
+    float: left;
+    width: 17%;
+    text-align: center;
+    color: #c0bcbb;
+}
+
+.pilknap2 .box2 {
+    font-size: 10px;
+    float: left;
+    width: 17%;
+    text-align: center;
+    color: #d36d75;
+}
+
+.pilknap2 .box3 {
+    font-size: 10px;
+    float: left;
+    width: 17%;
+    text-align: center;
+    color: #a6bb75;
+}
+
+.pilknap2 .box4 {
+    font-size: 14px;
+    float: left;
+    width: 17%;
+    text-align: center;
+    color: #6696ac;
 }
 
 /* --------- BOX CONTENT  --------- */
@@ -364,9 +412,10 @@ p.example {
 	font-size: 12px;
 }
 
-.pilknap #medarbejderlisten {
+.pilknap2 #medarbejderlisten {
     list-style-type: none;
     margin: -15px 0 0 0;
+    background-color: white;
 }
 
 #medarbejderlisten li a {
