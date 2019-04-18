@@ -408,6 +408,12 @@ p.example {
     font-weight: bold;
 }
 
+/* INDSEND MUS */
+
+.indsend {
+	float: right;
+	}
+
 /* Radio (Enig/Uenig) */
 
 .eniguenig {
