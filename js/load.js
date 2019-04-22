@@ -55,7 +55,10 @@ function loadKollega() {
 }
 
 function loadOpretSam() {
-    document.getElementById("rightbox").innerHTML = '<object type="text/html" id="window" data="#"></object>';
+    document.getElementById("rightbox").innerHTML = '<object type="text/html" id="window" data="opretsam.html"></object>';
+	
+	height = document.getElementById('leftbox').scrollHeight;
+    document.getElementById('window').style.height = height + "px";
     
     makeGray();
     var opretknap = document.getElementById("opretknap");
