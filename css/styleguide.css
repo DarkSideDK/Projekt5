@@ -148,6 +148,13 @@ xmp {
 }
 
 
+/* Adjust existing items to something different when within styleguide */
+
+.pages {
+    position:relative!important;
+}
+
+
 
 
 

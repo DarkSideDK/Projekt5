@@ -20,7 +20,7 @@
             <nav>
                 <ul>
                     <li><a href="color.html">color</a></li>
-                    <li><a href="fields.html">text fields</a></li>
+                    <li><a href="fields.html">input fields</a></li>
                     <li><a class="currentpage" href="buttons.html">buttons</a></li>
                     <li><a href="typography.html">typography</a></li>
                     <li><a href="icons.html">icons</a></li>
@@ -47,7 +47,8 @@
                 </div>
                 <div class="item">
                     <h2>Pil knappen</h2>
-                    <button class="pilknap"  onclick="load()">
+                    Notice: Width 100%
+                    <button class="pilknap" onclick="load()">
                       <div class="box0">Udfyld din udviklingssamtale</div>
                       <div class="box1">Udfyldt<br>0/7</div>
                       <div class="box2">Frist<br>27. Juni 2019</div>
@@ -62,6 +63,25 @@
           <div class="boxpil">&gt;</div>
           <div class="clear"></div>
     </button>
+                    </xmp>
+                </div>
+                <div class="item">
+                    <h2>Next page &gt;</h2>
+                    <div class="pages">
+                        <a>&nbsp;</a> Side 1 af 4 <a href="#">&gt;</a>
+                    </div>
+                    Notice: Always stuck at bottom of screen or window
+                    <br>When on first page:
+                    <xmp>
+    <div class="pages">
+        <a href="previousPage.html">&nbsp;</a> Side 1 af 4 <a href="nextPage.html">&gt;</a>
+    </div>
+                    </xmp>
+                    When on later pages:
+                    <xmp>
+    <div class="pages">
+        <a href="previousPage.html">&lt;</a> Side 2 af 4 <a href="nextPage.html">&gt;</a>
+    </div>
                     </xmp>
                 </div>
             </section>
