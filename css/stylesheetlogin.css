@@ -412,6 +412,9 @@ p.example {
 /* INDSEND MUS */
 
 .indsend {
+	position: relative;
+	bottom: 15px;
+	right: 25px;
 	float: right;
 	}
 
