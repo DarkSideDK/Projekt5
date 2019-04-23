@@ -255,12 +255,13 @@ img.mailbox {
 
 .pilknap2 {
     text-align: left;
-    margin-bottom: -4px;
+    margin-bottom: 4px;
     border: 4px solid #c0bcbb;
     padding: 15px 10px;
     width:100%;
-    background-color:#f6f6f6;
+    background-color:#eee;
     font-size:16px;
+    
 }
 
 .pilknap3 {
@@ -411,8 +412,39 @@ p.example {
 /* INDSEND MUS */
 
 .indsend {
+	position: relative;
+	bottom: 15px;
+	right: 25px;
 	float: right;
 	}
+	
+/* CALENDER */
+
+td a {
+    display:block;
+    width:100%;
+}
+
+td a:active {
+	background-color: #000;
+}
+	
+	
+
+table {
+	width: 100%;
+}
+
+td {
+	color: #6696ac;
+}
+
+tr {
+	width:80%;
+	color: #c0bcbb;
+}
+
+
 
 /* Radio (Enig/Uenig) */
 
@@ -424,7 +456,7 @@ p.example {
 	font-size: 12px;
 }
 
-#medarbejderlisten ul{
+ul, li {
     list-style-type: none;
 }
 

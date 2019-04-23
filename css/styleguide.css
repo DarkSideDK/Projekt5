@@ -1,6 +1,10 @@
 * {margin:0;padding:0;}
 .clear {clear:both;}
 
+body {
+    overflow-y: scroll;
+}
+
 .cont {
     max-width:1250px;
     margin: 20px auto;
@@ -147,6 +151,21 @@ xmp {
     background-color:#FFF5DA;
 }
 
+xmp.js {
+    border-left:5px solid #b1d8f9;
+    background-color:#e0f0fd;
+}
+
+
+/* Adjust existing items to something different when within styleguide */
+
+.pages {
+    position:relative!important;
+}
+
+img.mailbox {
+    padding:0!important;
+}
 
 
 

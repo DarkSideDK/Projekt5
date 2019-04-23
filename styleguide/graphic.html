@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>House Of Code</title>
+        <meta name="description" content="House of Code">
+        <meta name="author" content="Gruppe 24">
+        <link rel="icon" href="../images/logo.ico">
+        <link rel="stylesheet" href="../css/styleguide.css">
+        <link rel="stylesheet" href="../css/stylesheetlogin.css">
+        <script src="js/login.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img height="100px" src="../images/SVG/HoC-logo-long_light.svg"></a>
+        </header>
+        <div class="cont">
+            <nav>
+                <ul>
+                    <li><a href="color.html">color</a></li>
+                    <li><a href="fields.html">input fields</a></li>
+                    <li><a href="buttons.html">buttons</a></li>
+                    <li><a href="typography.html">typography</a></li>
+                    <li><a href="graphic.html" class="currentpage">graphic setup</a></li>
+                </ul>
+            </nav>
+            <section>
+                <h1>graphic setup</h1>
+                <hr>
+                <div class="item">
+                    <h2>Full page with language selection and window (left) </h2>
+                    No example
+                    <xmp>
+    <div class="mainbox">
+        <div class="language"><a href="#">DA</a> | <a href="#">EN</a></div>
+        <div class="clear"></div>
+        <div class="leftbox" id="leftbox">
+            All leftbox content goes here
+        </div>
+    </div>
+                    </xmp>
+                </div>
+                <div class="item">
+                    <h2>Window (Right)</h2>
+                    Creating a right window <br>
+                    No exapmple<br>
+                    <br>HTML/CSS
+                    <xmp>
+    <div class="rightbox" id="rightbox">
+        <img class="bobble" src="images/talebobble.svg" alt="talebobbel"/>
+    </div>
+                    </xmp>
+                    
+                    Javascript
+                    <xmp class="js">
+    var height;
+                        
+    function loadPage() {
+        document.getElementById("rightbox").innerHTML='<object type="text/html"
+        id="window" data="rightPage.html"></object>';
+                        
+        /*Set right window same height as left (original page) */
+                        
+        height = document.getElementById('leftbox').scrollHeight;
+        document.getElementById('window').style.height = height + "px";
+    }
+                    </xmp>
+                </div>
+                <div class="item">
+                    <h2>Header</h2>
+                    Header example
+                    <div class="profileheader" id="header">
+                        <div class="left">
+                            <h1>Header text</h1>
+                            <a style="text-decoration:none" href="#"><span>Action</span></a>
+                        </div>
+                        <div class="right">
+                            <img class="mailbox" src="../images/mail.png">
+                            <div class="mailalert">2</div>
+                        </div> 
+                        <div class="clear"></div>
+                    </div>
+                    <xmp>
+    <div class="profileheader" id="header">
+        <div class="left">
+            <h1>Header text</h1>
+            <a style="text-decoration:none" href="index.html"><span>Action</span></a>
+        </div>
+        <div class="right">
+            <img class="mailbox" src="images/mail.png">
+            <div class="mailalert">2</div>
+        </div> 
+        <div class="clear"></div>
+    </div>
+                    </xmp>
+                </div>
+            </section>
+            <div class="clear"></div>
+        </div>
+    </body>
+</html>
