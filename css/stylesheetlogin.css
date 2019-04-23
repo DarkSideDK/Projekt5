@@ -417,6 +417,16 @@ p.example {
 	right: 25px;
 	float: right;
 	}
+	
+/* CALENDER */
+
+td {
+	color: #6696ac;
+}
+
+tr {
+	color: #c0bcbb;
+}
 
 /* Radio (Enig/Uenig) */
 
