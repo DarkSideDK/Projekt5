@@ -420,13 +420,31 @@ p.example {
 	
 /* CALENDER */
 
+td a {
+    display:block;
+    width:100%;
+}
+
+td a:active {
+	background-color: #000;
+}
+	
+	
+
+table {
+	width: 100%;
+}
+
 td {
 	color: #6696ac;
 }
 
 tr {
+	width:80%;
 	color: #c0bcbb;
 }
+
+
 
 /* Radio (Enig/Uenig) */
 
