@@ -1,11 +1,21 @@
-function listeFunktion() { /*funktionen bliver diklereret */
-    var input, filter, ul, li, a, i, txtValue; /*var kategoriserer de punkter der står efter */
-    input = document.getElementById("medarbejderSoegListe"); /*input kategoriseres som... */
+function listeFunktion() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("medarbejderSoegListe");
     filter = input.value.toUpperCase();
+    console.log("nu skal vi finde vores liste");
+    console.log(document.getElementById("medarbejderListen"));
+    if(document.getElementById("medarbejderListen"))
+       {
+            console.log("vi fandt vores liste");
+       }
+    else
+        {
+            console.log("vi kunne ikke finde vores liste");
+        }
     ul = document.getElementById("medarbejderListen");
     li = ul.getElementsByTagName("li");
-    for (i = 0; i < li.length; i++) { /*der laves et loop, her benyttes "For" loop, som betyder at den looper igennem en del kode, altså array/liste af navne */
-        a = li[i].getElementsByTagName("a")[0]; /*"a" bliver kategoriseret */
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
         txtValue = a.textContent || a.innerText;
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "";
@@ -14,5 +24,3 @@ function listeFunktion() { /*funktionen bliver diklereret */
         }
     }
 }
-
-/* desværre kan jeg ikke få det til at fungere */
