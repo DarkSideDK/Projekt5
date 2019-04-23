@@ -67,3 +67,17 @@ function loadOpretSam() {
     opretknap.style.position = "relative";
     opretknap.style.zIndex = "1";
 }
+
+function loadAnmodSam() {
+    document.getElementById("rightbox").innerHTML = '<object type="text/html" id="window" data="anmod.html"></object>';
+	
+	height = document.getElementById('leftbox').scrollHeight;
+    document.getElementById('window').style.height = height + "px";
+    
+    makeGray();
+    var opretknap = document.getElementById("opretknap");
+    opretknap.style.backgroundColor = "rgba(166,187,117,0.1)";
+    opretknap.style.border = "4px solid rgba(166,187,117,1)";
+    opretknap.style.position = "relative";
+    opretknap.style.zIndex = "1";
+}
